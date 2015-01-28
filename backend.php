@@ -72,8 +72,12 @@
 	$purge_intervals = array(
 		0  => __("Use default"),
 		-1 => __("Never purge"),
+		1  => __("1 day old"),
+		2  => __("2 days old"),
+		3  => __("3 days old"),
 		5  => __("1 week old"),
 		14 => __("2 weeks old"),
+		21 => __("3 weeks old"),
 		31 => __("1 month old"),
 		60 => __("2 months old"),
 		90 => __("3 months old"));
